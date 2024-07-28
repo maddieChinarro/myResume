@@ -1,0 +1,68 @@
+.formation__logo__oc {
+    width: 10.6rem;
+    height: 0.8rem;
+}
+
+.formation__logo__arf {
+    width: 8.6rem;
+    height: 1.7rem;
+}
+
+.yummyNouilles {
+    width: 35rem;
+    height: 25rem;
+    overflow: scroll;
+}
+
+.yummyNouilles img {
+    width: 34rem;
+    object-fit: cover;
+}
+
+.formationGrid {
+    display: flex;
+    flex-flow: wrap column;
+    align-items: flex-start;
+    margin: 15rem;
+    gap: 8rem;
+}
+
+.formationGrid__one {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    gap: 5rem;
+}
+
+.formation {
+    display: flex;
+    flex-flow: wrap column;
+    gap: 1.9rem;
+}
+
+.formationGrid__two {
+    align-self: flex-end;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: end;
+    gap: 5rem;
+}
+
+.alternance {
+    display: flex;
+    flex-flow: wrap column;
+    gap: 1.9rem;
+}
+
+.pointsClef {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5rem;
+}
+
+.pointsClef__block {
+    display: flex;
+    flex-flow: wrap column;
+    gap: 2rem;
+}

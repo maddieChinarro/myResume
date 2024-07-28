@@ -1,0 +1,64 @@
+.hero {
+    display: flex;
+    flex-flow: wrap column;
+    align-items: center;
+    margin: 10rem;
+    gap: 6rem;
+}
+
+.heroGrid__one {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    row-gap: 6rem;
+    gap: 13.5rem;
+}
+
+.heroGrid__two {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    row-gap: 6rem;
+    gap: 13.5rem;
+}
+
+.profilePicture {
+    margin-left: 5rem;
+    width: 18rem;
+    height: 16.5rem;
+}
+
+.aboutMe {
+    display: flex;
+    flex-flow: wrap column;
+    text-align: center;
+    width: 36rem;
+}
+
+.contactGrid {
+    display: grid;
+    grid-template-columns: 1.5rem 1fr;
+    grid-template-rows: 1.5rem 1.5rem 1.5rem 1.5rem;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.skillsGrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.skillsGrid__one {
+    display: flex;
+    gap: 2rem;
+}
+
+.skillsGrid__two {
+    display: flex;
+    gap: 4rem;
+}

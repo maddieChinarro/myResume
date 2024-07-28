@@ -1,0 +1,7 @@
+.hobbies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 10rem 10rem 5rem 10rem;
+    text-align: center;
+}
