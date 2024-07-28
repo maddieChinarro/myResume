@@ -1,0 +1,81 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rosarivo:ital@0;1&display=swap');
+@import '/src/styles/modules/Hero.css';
+@import '/src/styles/modules/Banner.css';
+@import '/src/styles/modules/CV.css';
+@import '/src/styles/modules/Hobbies.css';
+@import '/src/styles/modules/Footer.css';
+
+* {margin: 0;} 
+
+/* Font Styles */
+
+h1 {
+    font-family: 'Rosarivo';
+    font-size: 2.5rem;
+    font-weight: 1000;
+    font-style: italic;
+    margin: 0;
+}
+
+h2 {
+    font-family: 'Montserrat';
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin: 0;
+    margin-bottom: 2rem;
+}
+
+h3 {
+    font-family: 'Montserrat';
+    font-size: 2.25rem;
+    font-weight: 500;
+}
+
+h4 {
+    font-family: 'Montserrat';
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+p {
+    font-family: 'Montserrat';
+    font-size: larger;
+    line-height: 1.4rem;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.formation__dates {
+    font-size: 0.9rem;
+}
+
+li{
+    font-family: 'Montserrat';
+    font-size: 1.5rem;
+    font-weight: 300;
+    list-style-type: circle;
+}
+
+li a {
+    font-style: italic;
+}
+
+.pointsClef__block li {
+    font-size: 1.25rem;
+    list-style-position: inside;
+    text-align: start;
+}
+
+.pointsClef__block {
+    text-align: center;
+}
+
+.hobbies p {
+    font-size: 0.7rem;
+}
