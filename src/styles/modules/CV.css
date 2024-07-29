@@ -8,17 +8,6 @@
     height: 1.7rem;
 }
 
-.yummyNouilles {
-    width: 35rem;
-    height: 25rem;
-    overflow: scroll;
-}
-
-.yummyNouilles img {
-    width: 34rem;
-    object-fit: cover;
-}
-
 .formationGrid {
     display: flex;
     flex-flow: wrap column;
