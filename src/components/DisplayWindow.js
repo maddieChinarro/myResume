@@ -6,12 +6,14 @@ function DisplayWindow() {
     const [window, setWindow] = useState('web')
 
     return (
-        <div className='displayWindow'>
+        <div>
             <div className='displayWindow__navbar'>
                 <button className='displayWindow__button' onClick={() => setWindow('web')} >Version web</button>
                 <button className='displayWindow__button' onClick={() => setWindow('mobile')} >Version mobile</button>
             </div>
-            <Window window={window} />
+            <div className='displayWindow'>
+                <Window window={window} />
+            </div>
         </div>
     )
 }
