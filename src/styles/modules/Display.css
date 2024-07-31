@@ -1,40 +1,47 @@
 .displayWindow {
-    width: 35rem;
+    width: 40rem;
     height: 25rem;
     overflow: scroll;
     overflow-x: hidden;
 }
 
 .displayWindow img {
-    width: 34rem;
+    width: 40rem;
     object-fit: cover;
 }
 
 .displayWindow__navbar {
     display: flex;
-    position: sticky;
-    top: 0;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
 }
 
 .displayWindow__button {
-    border-width: 1px;
-    border-radius: 2px;
-    width: 100%;
+    border-width: 0;
+    border-radius: 4px;
+    box-shadow: rgba(252, 39, 64, 0.4) -2px 2px 4px, rgba(252, 39, 64, 0.3) -3px 4px 11px;
+    width: 30%;
     height: 2rem;
     color: white;
     background-color: rgb(247, 101, 118);
-    cursor: pointer;   
+    cursor: pointer;  
+    font-weight: 600;
+    transition: box-shadow .12s,transform .12s;
 }
 
 .displayWindow__button:hover {
-    background-color: rgb(250, 74, 95);
+    background-color: rgb(246, 70, 90);
+    box-shadow: rgba(252, 39, 64, 0.4) -4px 4px 8px, rgba(252, 39, 64, 0.3) -6px 8px 22px;
+    transform: translate(1px, -1px);
 }
 
-.displayWindow__button__toggled {
-    border-width: 1px;
-    border-radius: 2px;
-    height: 2rem;
-    color: white;
-    background-color: rgb(250, 74, 95);
-    cursor: pointer;   
+.displayWindow__button:focus {
+    background-color: rgb(244, 16, 43); 
+    transform: translate(0px, 0px); 
+}
+
+.displayWindow__button:active {
+    background-color: rgb(244, 16, 43); 
+    transform: translate(-1px, 1px); 
 }
